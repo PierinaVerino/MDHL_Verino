@@ -89,6 +89,7 @@ h3{
     text-align:left;
     font-size: 1.5rem;
     color: rgb(80, 46, 5);
+    text-shadow: 2px 2px rgb(202, 48, 9);
     padding: 1rem;
 }
 
@@ -96,26 +97,21 @@ h4{
     text-align:left;
     font-size: 1.5rem;
     color: rgb(80, 46, 5);
-}
-
-h5{
-    text-align:left;
-    font-size: 0.75rem;
-    color: rgb(80, 46, 5);
-    width: 10rem;
+    text-shadow: 2px 2px rgb(202, 48, 9);
+    padding-left: 1rem;
 }
 
 .titulos2{    
     text-align:left;
     flex-direction: column;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: rgb(80, 46, 5);
 }
 
 .container-flex{    
     display: flex;
     flex-direction: column;
-    width: 1410px;
+    width: 1450px;
     height: 400px;
     background-color: rgba(165, 42, 42, 0.393);
     gap: 0.5rem;
@@ -124,7 +120,7 @@ h5{
 
 article{
     display: flex;
-    width: 1400px;
+    width: 1450px;
     height: 600px;
     flex-direction: row;
     padding: 0.5rem;
@@ -132,27 +128,45 @@ article{
     align-items: baseline;
 }
 
-.container-flex-rules{    
+.container-flex-xl{    
     display: flex;
     flex-direction: column;
-    width: 1410px;
-    height: 600px;
+    width: 1450px;
+    height: 700px;
     background-color: rgba(165, 42, 42, 0.393);
     gap: 1rem;
     padding: 1rem;
 }
+
+table{
+    background-color: rgba(217, 30, 30, 0.393);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead{
+    background-color: rgba(120, 12, 12, 0.393);
+}
+
 .txt{
     display: flex;
     width: 1400px;
     height: 600px;
     flex-direction: row;
     padding: 1rem;
-    height: 14rem;
-    align-items: baseline;
+    height: 16rem;
+    flex-direction: column;
 }
-
 
 p{
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
+
+h5{
+    justify-content: center;
+    font-size: 1.5rem;
+    color: rgb(184, 108, 15);
+    text-shadow: 2px 2px rgb(202, 48, 9);
+}
+
