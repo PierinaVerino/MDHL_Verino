@@ -5,36 +5,154 @@
     font-family: 'Trebuchet MS';
 }
 
-.Imagenes-Encabezado{
-    height: 25vh;
+header{
+    min-height: 10vh;
+    gap: 0.5rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: stretch;
-    background-color:rgb(202, 48, 9);
-    border: brown;
-    border-style: double ;
+    background-color: beige;
+    padding: 0.5rem;
+    background-color:rgba(202, 106, 9, 0.675);
 }
 
 #logo{
+    width: 10rem;
+    height: 10rem;
+    align-items: stretch;
+    border: brown;
+    border-style: double;
     background-color: rgb(216, 134, 27);
     border-style: double;
-    border-color: brown;
-}
-
-.container-flex{    
-    height: 75vh;
-    background-color: beige;
-    box-sizing: border-box;
-    display: flex;
 }
 
 h1{
-    display: flex;
-    background-color:rgba(143, 49, 14, 0.389);
+    width: 80rem;
+    align-self: center;
     font-weight: bold;
     font-size: 3rem;
     color: rgb(236, 209, 11);
+    text-shadow: 2px 2px rgb(202, 48, 9);
     text-align: center;
 }
 
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self:flex-end;
+    height: 2rem;
+}
+
+nav a{
+    width: 10rem;
+    height: 2rem;
+    justify-content: space-around;
+    background-color:rgba(228, 130, 11, 0.611);
+    border-style: double;
+    border-color: brown;
+    text-align: center;
+    color: rgb(128, 23, 23);
+    text-decoration: none;
+    border-radius: 15px;
+    padding-top: 5px;
+}
+
+main{
+    min-height: 80vh;
+    padding: 0.5rem;
+    background-color: beige;
+}
+
+h2{
+    align-self: flex-start;
+    background-color:rgba(228, 130, 11, 0.611);
+    border-style: double;
+    border-color: brown;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(80, 46, 5);
+    margin-bottom: 1rem;
+}
+
+.imagenes-hockey{
+    display: flex;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+img{
+    padding: 1rem;
+}
+
+h3{
+    text-align:left;
+    font-size: 1.5rem;
+    color: rgb(80, 46, 5);
+    padding: 1rem;
+}
+
+h4{
+    text-align:left;
+    font-size: 1.5rem;
+    color: rgb(80, 46, 5);
+}
+
+h5{
+    text-align:left;
+    font-size: 0.75rem;
+    color: rgb(80, 46, 5);
+    width: 10rem;
+}
+
+.titulos2{    
+    text-align:left;
+    flex-direction: column;
+    font-size: 1rem;
+    color: rgb(80, 46, 5);
+}
+
+.container-flex{    
+    display: flex;
+    flex-direction: column;
+    width: 1410px;
+    height: 400px;
+    background-color: rgba(165, 42, 42, 0.393);
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+article{
+    display: flex;
+    width: 1400px;
+    height: 600px;
+    flex-direction: row;
+    padding: 0.5rem;
+    height: 4rem;
+    align-items: baseline;
+}
+
+.container-flex-rules{    
+    display: flex;
+    flex-direction: column;
+    width: 1410px;
+    height: 600px;
+    background-color: rgba(165, 42, 42, 0.393);
+    gap: 1rem;
+    padding: 1rem;
+}
+.txt{
+    display: flex;
+    width: 1400px;
+    height: 600px;
+    flex-direction: row;
+    padding: 1rem;
+    height: 14rem;
+    align-items: baseline;
+}
+
+
+p{
+    justify-content: center;
+    font-size: 1.2rem;
+}
