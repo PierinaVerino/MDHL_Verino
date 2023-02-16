@@ -13,6 +13,8 @@ header{
     background-color: beige;
     padding: 0.5rem;
     background-color:rgba(202, 106, 9, 0.675);
+    border: brown;
+    border-style: double;
 }
 
 #logo{
@@ -23,7 +25,6 @@ header{
     border: brown;
     border-style: double;
     background-color: rgb(216, 134, 27);
-    border-style: double;
 }
 
 h1{
@@ -60,7 +61,7 @@ nav a{
 main{
     min-height: 80vh;
     padding: 1rem;
-    background-color: beige;
+    background-color: rgba(64, 148, 89, 0.329);
 }
 
 h2{
@@ -70,14 +71,15 @@ h2{
     font-weight: bold;
     text-align: center;
     font-size: 2rem;
-    color: rgb(80, 46, 5);
+    color: rgb(64, 148, 89);
+    text-shadow: 2px 2px rgb(202, 48, 9);
     margin-bottom: 1rem;
 }
 
 h3,h4{
     text-align:left;
     font-size: 1.5rem;
-    color: rgb(80, 46, 5);
+    color: rgb(17, 107, 44);
     text-shadow: 2px 2px rgb(202, 48, 9);
     padding: 0.5rem;
 }
@@ -96,7 +98,7 @@ h3,h4{
 .container-flex{    
     display: flex;
     flex-direction: column;
-    background-color: rgba(165, 42, 42, 0.393);
+    background-color: rgba(102, 25, 25, 0.205);
     gap: 0.5rem;
     padding: 2rem;
 }
@@ -160,34 +162,30 @@ ol{
     padding: 1rem;
     flex-direction: column;
 }
+
 li,ul{
     padding: 0.5rem;
 }
 
 form{
     border: 2px solid orange;
+    background-color: rgba(102, 25, 25, 0.205);
     margin: 1rem;
     padding: 1rem;
 }
 
-
-#info-pers,#info-school,#info-team,#info-size{
-    margin: 1rem;
-    padding: 1rem;
-    border: solid brown
-}
-
-legend{
-    font-size: 1rem;
-    min-width: 15rem;
-    color: rgb(207, 125, 23);
-}
-
-#parent-accept{
+#info-pers,#info-school,#info-team,#info-size,#parent-accept{
     margin: 1rem;
     padding: 1rem;
     border: solid brown
 }
+
+.pregunta{
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    color: rgb(158, 94, 16);
+}
+
    
 
 
