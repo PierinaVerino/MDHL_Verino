@@ -16,8 +16,9 @@ header{
 }
 
 #logo{
-    width: 10rem;
+    min-width: 10rem;
     height: 10rem;
+    margin: 1rem;
     align-items: stretch;
     border: brown;
     border-style: double;
@@ -26,7 +27,8 @@ header{
 }
 
 h1{
-    min-width: 65rem;
+    min-width: 60rem;
+    margin: 2rem;
     align-self: center;
     font-weight: bold;
     font-size: 3rem;
@@ -39,11 +41,10 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 2rem;
 }
 
 nav a{
-    width: 10rem;
+    min-width: 15rem;
     justify-content: space-around;
     background-color:rgba(228, 130, 11, 0.611);
     border-style: double;
@@ -126,13 +127,21 @@ p{
 }
 
 table{
-    background-color: rgba(217, 30, 30, 0.393);
-    border-collapse: collapse;
+    background-color: rgba(148, 92, 28, 0.705);
     text-align: center;
+    border: solid;
+    margin-left: 8rem;
+    margin-right: 8rem;
 }
 
 thead{
-    background-color: rgba(120, 12, 12, 0.393);
+    background-color: rgba(102, 25, 25, 0.897);
+}
+
+tr,th{
+    font-size: 1.2rem;
+    color: rgba(235, 163, 8, 0.959);
+    border-bottom: 1px solid;
 }
 
 h5{
@@ -155,6 +164,9 @@ li,ul{
     padding: 0.5rem;
 }
 
+form{
+    margin: 1rem;
+}
 
 
 
