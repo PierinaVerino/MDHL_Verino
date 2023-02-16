@@ -165,8 +165,29 @@ li,ul{
 }
 
 form{
+    border: 2px solid orange;
     margin: 1rem;
+    padding: 1rem;
 }
 
+
+#info-pers,#info-school,#info-team,#info-size{
+    margin: 1rem;
+    padding: 1rem;
+    border: solid brown
+}
+
+legend{
+    font-size: 1rem;
+    min-width: 15rem;
+    color: rgb(207, 125, 23);
+}
+
+#parent-accept{
+    margin: 1rem;
+    padding: 1rem;
+    border: solid brown
+}
+   
 
 
